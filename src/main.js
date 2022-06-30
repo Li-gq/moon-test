@@ -8,12 +8,19 @@ import locale from 'element-ui/lib/locale/lang/en' // lang i18n
 
 import '@/styles/index.scss' // global css
 
+import "@/assets/iconfont/iconfont.css"
+
 import App from './App'
 import store from './store'
 import router from './router'
 
 import '@/icons' // icon
 import '@/permission' // permission control
+
+import "@/mock/mockServer";
+import * as API from '@/api';
+
+Vue.prototype.$API = API;
 
 /**
  * If you don't want to use mock-server

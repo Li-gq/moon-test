@@ -1,0 +1,28 @@
+{
+  "orderNum": "E20191109115538084800003",
+  "currState":{
+    "state": "月球发货中",
+    "timestamp": 1656577083273
+  },
+  "records":[
+    {
+      "desc": "等待买家付款",
+      "timestamp": 1656577080000,
+      "complete": true
+    },
+    {
+      "desc": "等待月球发货",
+      "timestamp": 1656577083000,
+      "complete": true
+    },
+    {
+      "desc": "月球发货中",
+      "timestamp": 1656577083273,
+      "complete": true
+    },
+    {
+      "desc": "交易完成",
+      "complete": false
+    }
+  ]
+}
